@@ -22,7 +22,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
@@ -32,7 +31,6 @@
     [UIView animateWithDuration:2.0 animations:^{
          [self.view layoutIfNeeded];
     }];
-   
     
    
 }
